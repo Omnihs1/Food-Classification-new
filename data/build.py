@@ -9,5 +9,3 @@ def build_dataset():
                                   shuffle= True, num_workers=4)
     test_dataloader = DataLoader(test_dataset, batch_size = 8)
     return train_dataloader, test_dataloader
-
-a, b = build_dataset()
